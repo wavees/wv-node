@@ -1,0 +1,6 @@
+# Ignore ./node_modules folder.
+node_modules
+
+# Ignore ./database folder. We don't want to share
+# our databases with you ;p
+database
