@@ -1,7 +1,10 @@
 /*!
  * @project Wavees API Node
- *
+ * @description Wavees API is a fully open-source set of free services,
+ * that try to help new developers with their developer experience.
  * 
+ * @post scriptum Word from creator:
+ * I'm new to web-development, too.. And soo...
  */
 
 

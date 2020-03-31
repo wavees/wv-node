@@ -3,4 +3,4 @@ node_modules
 
 # Ignore ./database folder. We don't want to share
 # our databases with you ;p
-database
+database/storage
