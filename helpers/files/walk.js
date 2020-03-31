@@ -32,4 +32,5 @@ const walk = function(dir, done) {
   });
 };
 
+// Exporting helper.
 module.exports = walk;

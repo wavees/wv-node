@@ -1,19 +1,17 @@
 /*!
- * @database Tokens
- * @description All kind of tokens, for example: user tokens,
- * application tokens and much more.
+ * @database Application
+ * @description Database, that'll store all info about different applications.
+ * Applications module needs to be turned on.
  */
 // Connect modules
 const low      = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 
-const adapter  = new FileSync('storage/tokens.json');
+const adapter  = new FileSync('storage/applications.json');
 const db       = low(adapter);
 
 // Default database structure
 db.defaults({
-  user: [],
-
   applications: [],
 })
 .write();

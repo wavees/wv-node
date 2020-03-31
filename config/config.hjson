@@ -1,0 +1,19 @@
+{
+  //
+  // @config Accounts
+  // @description All about user accounts. Can users create their own
+  // accounts, credentials to Administration account and so on.
+  //
+  // @warning Password for Admin account is created during first application
+  // startup! But you can change it right now
+  accounts: {
+    registration: true,
+
+    admin: {
+      username: "root",
+      password: null
+
+      // Another configurations are made in account settings.
+    }
+  }
+}

@@ -1,20 +1,20 @@
 /*!
- * @database Tokens
- * @description All kind of tokens, for example: user tokens,
- * application tokens and much more.
+ * @database Notifications
+ * @description All kind of notifications, that can apply 
+ * to users, node notifications, admin dashboard and much more.
  */
 // Connect modules
 const low      = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 
-const adapter  = new FileSync('storage/tokens.json');
+const adapter  = new FileSync('storage/notifications.json');
 const db       = low(adapter);
 
 // Default database structure
 db.defaults({
-  user: [],
+  node: [],
 
-  applications: [],
+  dashboard: [],
 })
 .write();
 

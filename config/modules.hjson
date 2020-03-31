@@ -1,0 +1,31 @@
+{
+  //
+  // @module Applications
+  // @description This module provides Application APIs. Users can create
+  // their own applications and use all services within this node. I dunno, yes.
+  // 
+  applications: {
+    enabled: true,
+    config: {
+      // Can users create their own applications? If set to "false", than
+      // only administrator account can create and manage applications.
+      creatable: true
+
+      // All about Applications databases
+      databases: {
+        enabled: true,
+
+        // Allow users to create custom databases?
+        allowCustom: true
+
+        // Maximum number of custom databases. null = infinite
+        customLimit: null
+      },
+
+      // All about Application's callback
+      callbacks: {
+        enabled: true
+      }
+    }
+  }
+}
